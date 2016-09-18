@@ -10,6 +10,14 @@ namespace Homework.TaxiCourse
     {
         static void Main(string[] args)
         {
+            int lenghtKm = 0;
+            Console.WriteLine("Ente the leght of path: ");
+            lenghtKm = int.Parse(Console.ReadLine());
+
+            if (lenghtKm < 2)
+            {
+                Console.WriteLine("Your fare is: ");
+            }
         }
     }
 }
